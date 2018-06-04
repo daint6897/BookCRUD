@@ -1,5 +1,5 @@
 {
-    "name": "laraviet/bookcrud",
+    "name": "daint/bookcrud",
     "description": ":description",
     "license": "license",
     "authors": [
@@ -10,7 +10,7 @@
             "role": "Technician"
         }
     ],
-    "homepage": "https://github.com/laraviet/bookcrud",
+    "homepage": "https://github.com/daint/bookcrud",
     "keywords": ["Laravel", "BookCRUD"],
     "require": {
         "illuminate/support": "~5"
@@ -21,21 +21,21 @@
     },
     "autoload": {
         "psr-4": {
-            "Laraviet\\BookCRUD\\": "src/"
+            "daint\\BookCRUD\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Laraviet\\BookCRUD\\Tests\\": "tests"
+            "daint\\BookCRUD\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Laraviet\\BookCRUD\\BookCRUDServiceProvider"
+                "daint\\BookCRUD\\BookCRUDServiceProvider"
             ],
             "aliases": {
-                "BookCRUD": "Laraviet\\BookCRUD\\Facades\\BookCRUD"
+                "BookCRUD": "daint\\BookCRUD\\Facades\\BookCRUD"
             }
         }
     }
